@@ -3,6 +3,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@import "~ngx-toastr/toastr";
+
 
 :root {
     --primary-color:#026467;
@@ -13,8 +15,9 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     color: var(--body-text-color);
+    display: contents;
 }
 
 .site-logo {
@@ -46,10 +49,9 @@ body {
 }
 
 
-input[type=text], input[type=email ] {
+input[type=text], input[type=email ],input[type=password ] {
     height: 60px;
     padding-left: 20px;
-    font-size: 13px;
     width: 100%;
 }
 
